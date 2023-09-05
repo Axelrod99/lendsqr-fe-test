@@ -11,7 +11,7 @@ const DashboardLayout: React.FC<DashboardLayoutProps> = ({ children }) => {
     <div>
       <Header />
 
-      <div className="flex justify-center">
+      <div className="flex justify-center bg-[#f2faeb81]">
         <div className="w-[15%] hidden lg:flex">
           <Sidebar />
         </div>

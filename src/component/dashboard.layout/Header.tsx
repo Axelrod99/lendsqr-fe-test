@@ -14,7 +14,8 @@ const Header = ({ title }: HeadProps) => {
     <div className="font-medium w-full px-3 lg:pr-14 py-4 border-b border-[#EFF0F0]  flex  flex-wrap gap-4 items-center text-sm h-[80px]">
       <div className="grow flex items-center justify-between h-[100%]">
         <div className="inline-flex gap-2 items-center ">
-          <img src={Logo} />
+          <img className="hidden xs:flex" src={Logo} />
+          <p className="xs:hidden text-[32px] text-[#213F7D]">lendsqr</p>
         </div>
 
         <div className="md:flex border border-gray-300 hidden items-center rounded-[8px]">

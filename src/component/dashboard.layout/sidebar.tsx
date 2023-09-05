@@ -30,7 +30,7 @@ const Sidebar = () => {
 
 
   return (
-    <div className="shadow-[#0000001c] shadow  w-full">
+    <div className="shadow-[#0000001c] bg-white shadow  w-full">
       <div className="flex flex-col py-[39px]">
         <div className="flex justify-between">
           <img src={briefcase} />
@@ -50,7 +50,7 @@ const Sidebar = () => {
             </p>
             {sideBarMenu.map(({ name, icon, route }, index) => (
               <div key={index}>
-                <div>
+                <div className="flex">
                   <div className="icon">{icon}</div>
                   <p className="text-gray-9 font-medium text-base">{name}</p>
                 </div>
