@@ -11,18 +11,18 @@ const UserDetails = () => {
 
   return (
     <div className="py-[60px] px-[25px] sm:px-[50px] flex flex-col gap-[30px]">
-      <div onClick={() => navigate('/Users')} className="flex cursor-pointer w-36 gap-[10px] items-center">
+      <div onClick={() => navigate('/Users')} className="flex cursor-pointer w-40 gap-[10px] items-center">
         <img src={arrowBack} />
         <p className="text-[#545F7D] font-semibold">Back to Users</p>
       </div>
 
       <div className="flex justify-between pt-[10px]">
-        <p className="text-[#213F7D] text-[24px] font-semibold">User Details</p>
-        <div className="text-[14px] flex gap-5">
-          <button className="h-[40px] w-[170px] font-semibold rounded-[8px] text-[#E4033B] border border-[#E4033B]">
+        <p className="text-[#213F7D] text-[18px] md:text-[22px] sm:text-[24px] font-semibold">User Details</p>
+        <div className="text-[14px] flex gap-1 sm:gap-5">
+          <button className="h-[30px] sm:h-[36px] md:h-[40px] w-[90px] sm:w-[140px] md:w-[170px] text-[10px] sm:text-[14px] md:text-[16px] font-semibold rounded-[8px] text-[#E4033B] border border-[#E4033B]">
             BLACKLIST USER
           </button>
-          <button className="h-[40px] w-[170px] font-semibold rounded-[8px] text-[#39CDCC] border border-[#39CDCC]">
+          <button className="h-[30px] sm:h-[36px] md:h-[40px] w-[90px] sm:w-[140px] md:w-[170px] text-[10px] sm:text-[14px] md:text-[16px] font-semibold rounded-[8px] text-[#39CDCC] border border-[#39CDCC]">
             ACTIVATE USER
           </button>
         </div>

@@ -162,7 +162,7 @@ const Sidebar = () => {
   return (
     <div className="shadow-[#0000001c] bg-white shadow  w-full">
       <div className="flex flex-col py-[39px]">
-        <div className="pb-5 lg:pl-[4px] xl:pl-5 gap-1 xl:gap-3 flex justify-center">
+        <div className="pb-5 lg:pl-[4px] xl:pl-0 xl:pr-4 gap-2 xl:gap-3 flex justify-center">
           <div className="mt-[5px] hover:text-[#1D4C41]">
             <img src={briefcase} />
           </div>
