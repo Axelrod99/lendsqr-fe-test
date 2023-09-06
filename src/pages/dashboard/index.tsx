@@ -1,19 +1,12 @@
-import React from 'react';
-import DashboardLayout from '../../component/dashboard.layout';
-import UsersPage from '../Customers/users';
+import React from 'react'
+import DashboardLayout from '../../component/dashboard.layout'
 
-
-const Dashboard = () => {
-
-
-  const logout = () => {
-    console.log('out');
-  };
+const DashboardPagee = () => {
   return (
     <DashboardLayout>
-      <UsersPage/>
+    <div>DashboardPagee</div>
     </DashboardLayout>
-  );
-};
+  )
+}
 
-export default Dashboard;
+export default DashboardPagee

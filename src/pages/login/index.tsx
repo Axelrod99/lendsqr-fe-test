@@ -1,6 +1,7 @@
 import React from "react";
 import LoginImage from "../../assets/logout-image.svg";
 import Logo from "../../assets/logo.svg";
+import { Link } from "react-router-dom";
 
 const LoginPages = () => {
   return (
@@ -20,7 +21,7 @@ const LoginPages = () => {
           <img src={Logo} />
         </div>
 
-        <div className="w-full flex flex-col items-center mt-28 md:mt-0">
+        <div className="w-full flex flex-col items-center mt-16 md:mt-0">
           <div className="flex flex-col gap-[10px] w-[85%] md:w-[75%]">
             <p className="text-[#213F7D] text-[40px] font-bold">Welcome!</p>
             <p className="text-[#545F7D]">Enter details to login.</p>
@@ -39,13 +40,13 @@ const LoginPages = () => {
           </div>
 
           <div className="w-[85%] md:w-[75%] flex flex-col mt-6 gap-[30px]">
-            <p className="cursor-pointer w-32 text-[12px] font-semibold text-[#39CDCC]">
+            <p className="cursor-pointer w-32 text-[12px] text-[#39CDCC]">
               FORGOT PASSWORD?
             </p>
 
-            <button className="text-xs text-white bg-[#39CDCC] h-[48px] rounded-[8px]">
+            <Link to={'/Users'} className="text-xs text-white bg-[#39CDCC] h-[48px] flex justify-center items-center font-bold rounded-[8px]">
               LOG IN
-            </button>
+            </Link>
           </div>
         </div>
       </div>
