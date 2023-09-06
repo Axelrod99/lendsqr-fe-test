@@ -204,7 +204,7 @@ const UserTableDiv = () => {
       <div className="flex flex-col-reverse mt-5 gap-2 sm:gap-0 sm:flex-row justify-between text-[12px] lg:text-[14px]">
         <div className="flex text-[#545F7D] sm:gap-[10px] items-center">
           <p className="">Showing</p>
-          <div className="bg-[#213F7D1A]  cursor-pointer w-[80px] h-[30px] font-semibold flex gap-3 justify-center items-center">
+          <div className="text-[#213F7D1A] w-[80px] h-[30px] font-semibold flex gap-3 justify-center items-center">
             <p className="text-[#213F7D]">100</p>
             <img src={nextIcon} />
           </div>
@@ -213,7 +213,7 @@ const UserTableDiv = () => {
         </div>
 
         <div className="flex gap-[25px]">
-          <div className="bg-[#213F7D1A] cursor-pointer w-[24px] h-[24px] flex justify-center items-center">
+          <div className="bg-[#213F7D1A] w-[24px] h-[24px] flex justify-center items-center">
             <img src={leftIcon} />
           </div>
 
@@ -227,7 +227,7 @@ const UserTableDiv = () => {
             <p>16</p>
           </div>
 
-          <div className="bg-[#213F7D1A] cursor-pointer w-[24px] h-[24px] flex justify-center items-center">
+          <div className="bg-[#213F7D1A] w-[24px] h-[24px] flex justify-center items-center">
             <img src={rightIcon} />
           </div>
         </div>

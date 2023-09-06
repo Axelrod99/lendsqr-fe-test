@@ -44,7 +44,7 @@ const LoginPages = () => {
               FORGOT PASSWORD?
             </p>
 
-            <Link to={'/Users'} className="text-xs text-white bg-[#39CDCC] h-[48px] flex justify-center items-center font-bold rounded-[8px]">
+            <Link to={'/Dashboard'} className="text-xs text-white bg-[#39CDCC] h-[48px] flex justify-center items-center font-bold rounded-[8px]">
               LOG IN
             </Link>
           </div>
