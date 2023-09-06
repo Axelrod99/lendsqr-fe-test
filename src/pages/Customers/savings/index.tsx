@@ -4,7 +4,7 @@ import DashboardLayout from '../../../component/dashboard.layout'
 const Savings = () => {
   return (
     <DashboardLayout>
-    <div>Savings</div>
+    <div className='h-screen'>Savings</div>
     </DashboardLayout>
   )
 }

@@ -4,7 +4,7 @@ import DashboardLayout from '../../../component/dashboard.layout'
 const SystemMessagesPage = () => {
   return (
     <DashboardLayout>
-    <div>SystemMessagesPage</div>
+    <div className='h-screen'>SystemMessagesPage</div>
     </DashboardLayout>
   )
 }

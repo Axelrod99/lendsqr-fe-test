@@ -4,7 +4,7 @@ import DashboardLayout from '../../../component/dashboard.layout'
 const KarmaPage = () => {
   return (
     <DashboardLayout>
-    <div>KarmaPage</div>
+    <div className='h-screen'>KarmaPage</div>
     </DashboardLayout>
   )
 }

@@ -4,7 +4,7 @@ import DashboardLayout from '../../../component/dashboard.layout'
 const FeesPricingPage = () => {
   return (
     <DashboardLayout>
-    <div>FeesPricingPage</div>
+    <div className='h-screen'>FeesPricingPage</div>
     </DashboardLayout>
   )
 }

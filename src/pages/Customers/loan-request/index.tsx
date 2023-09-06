@@ -4,7 +4,7 @@ import DashboardLayout from '../../../component/dashboard.layout'
 const LoanRequest = () => {
   return (
     <DashboardLayout>
-    <div>LoanRequest</div>
+    <div className='h-screen'>LoanRequest</div>
     </DashboardLayout>
   )
 }

@@ -4,7 +4,7 @@ import DashboardLayout from '../../../component/dashboard.layout'
 const FeesCharge = () => {
   return (
     <DashboardLayout>
-    <div>FeesCharge</div>
+    <div className='h-screen'>FeesCharge</div>
     </DashboardLayout>
   )
 }

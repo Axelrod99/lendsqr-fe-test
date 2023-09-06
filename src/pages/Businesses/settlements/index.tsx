@@ -4,7 +4,7 @@ import DashboardLayout from '../../../component/dashboard.layout'
 const SettlementPage = () => {
   return (
     <DashboardLayout>
-    <div>SettlementPage</div>
+    <div className='h-screen'>SettlementPage</div>
     </DashboardLayout>
   )
 }

@@ -4,7 +4,7 @@ import DashboardLayout from '../../../component/dashboard.layout'
 const WhiteListPage = () => {
   return (
     <DashboardLayout>
-    <div>WhiteList</div>
+    <div className='h-screen'>WhiteList</div>
     </DashboardLayout>
   )
 }

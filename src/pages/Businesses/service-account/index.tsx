@@ -4,7 +4,7 @@ import DashboardLayout from '../../../component/dashboard.layout'
 const ServiceAccountPage = () => {
   return (
     <DashboardLayout>
-    <div>ServiceAccountPage</div>
+    <div className='h-screen'>ServiceAccountPage</div>
     </DashboardLayout>
   )
 }

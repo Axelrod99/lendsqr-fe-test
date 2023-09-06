@@ -4,7 +4,7 @@ import DashboardLayout from '../../../component/dashboard.layout'
 const DecisionPage = () => {
   return (
     <DashboardLayout>
-    <div>DecisionPage</div>
+    <div className='h-screen'>DecisionPage</div>
     </DashboardLayout>
   )
 }
