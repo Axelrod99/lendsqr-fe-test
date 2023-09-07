@@ -144,7 +144,7 @@ const UserTableDiv = () => {
                     </div>
                   </td>
                   <td className="py-4 px-2">
-                    <img className="cursor-pointer" src={dots} />
+                    <img alt='/' className="cursor-pointer" src={dots} />
                   </td>
                 </tr>
               );
@@ -207,7 +207,7 @@ const UserTableDiv = () => {
           <p className="">Showing</p>
           <div className="text-[#213F7D1A] w-[80px] h-[30px] font-semibold flex gap-3 justify-center items-center">
             <p className="text-[#213F7D]">100</p>
-            <img src={nextIcon} />
+            <img alt='/' src={nextIcon} />
           </div>
 
           <p>out of 100</p>
@@ -215,7 +215,7 @@ const UserTableDiv = () => {
 
         <div className="flex gap-[25px]">
           <div className="bg-[#213F7D1A] w-[24px] h-[24px] flex justify-center items-center">
-            <img src={leftIcon} />
+            <img alt='/' src={leftIcon} />
           </div>
 
           <div className="flex text-[#545F7D] items-center gap-[25px]">
@@ -229,7 +229,7 @@ const UserTableDiv = () => {
           </div>
 
           <div className="bg-[#213F7D1A] w-[24px] h-[24px] flex justify-center items-center">
-            <img src={rightIcon} />
+            <img alt='/' src={rightIcon} />
           </div>
         </div>
       </div>

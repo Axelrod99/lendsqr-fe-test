@@ -31,7 +31,7 @@ type SidebarItemType = {
 const HeaderSideBarMenu: SidebarItemType[] = [
   {
     name: "Dashboard",
-    icon: <img src={home} />,
+    icon: <img alt='/' src={home} />,
     route: "/Dashboard",
   },
 ];
@@ -40,42 +40,42 @@ const Sidebar = () => {
   const CustomerSideBarMenu: SidebarItemType[] = [
     {
       name: "Users",
-      icon: <img src={user_friends} />,
+      icon: <img alt='/' src={user_friends} />,
       route: "/Users",
     },
     {
       name: "Guarantors",
-      icon: <img src={guarantor} />,
+      icon: <img alt='/' src={guarantor} />,
       route: "/Guarantors",
     },
     {
       name: "Loans",
-      icon: <img src={sack} />,
+      icon: <img alt='/' src={sack} />,
       route: "/Loans",
     },
     {
       name: "Decision Models",
-      icon: <img src={handshake} />,
+      icon: <img alt='/' src={handshake} />,
       route: "/Decision-Models",
     },
     {
       name: "Savings",
-      icon: <img src={savings} />,
+      icon: <img alt='/' src={savings} />,
       route: "/Savings",
     },
     {
       name: "Loan Request",
-      icon: <img src={loanRequest} />,
+      icon: <img alt='/' src={loanRequest} />,
       route: "/Loan-Request",
     },
     {
       name: "Whitelist",
-      icon: <img src={whitelist} />,
+      icon: <img alt='/' src={whitelist} />,
       route: "/Whitelist",
     },
     {
       name: "Karma",
-      icon: <img src={karma} />,
+      icon: <img alt='/' src={karma} />,
       route: "/Karma",
     },
   ];
@@ -83,47 +83,47 @@ const Sidebar = () => {
   const BusinessesSideBarMenu: SidebarItemType[] = [
     {
       name: "Organization",
-      icon: <img src={briefcase} />,
+      icon: <img alt='/' src={briefcase} />,
       route: "/Organization",
     },
     {
       name: "Loan Product",
-      icon: <img src={loanRequest} />,
+      icon: <img alt='/' src={loanRequest} />,
       route: "/Loan-Product",
     },
     {
       name: "Savings Product",
-      icon: <img src={bank} />,
+      icon: <img alt='/' src={bank} />,
       route: "/Savings-Product",
     },
     {
       name: "Fees and Charge",
-      icon: <img src={coins} />,
+      icon: <img alt='/' src={coins} />,
       route: "/Fees-and-Service",
     },
     {
       name: "Transactions",
-      icon: <img src={Sevices} />,
+      icon: <img alt='/' src={Sevices} />,
       route: "/Transactions",
     },
     {
       name: "Services",
-      icon: <img src={servicess} />,
+      icon: <img alt='/' src={servicess} />,
       route: "/Services",
     },
     {
       name: "Service Account",
-      icon: <img src={serviceAccount} />,
+      icon: <img alt='/' src={serviceAccount} />,
       route: "/Service-Account",
     },
     {
       name: "Settlement",
-      icon: <img src={settlement} />,
+      icon: <img alt='/' src={settlement} />,
       route: "/Settlement",
     },
     {
       name: "Reports",
-      icon: <img src={serviceAccount} />,
+      icon: <img alt='/' src={serviceAccount} />,
       route: "/Reports",
     },
   ];
@@ -131,22 +131,22 @@ const Sidebar = () => {
   const SettingsSideBarMenu: SidebarItemType[] = [
     {
       name: "Preferences",
-      icon: <img src={settlement} />,
+      icon: <img alt='/' src={settlement} />,
       route: "/Preferences",
     },
     {
       name: "Fees and Pricing",
-      icon: <img src={badge} />,
+      icon: <img alt='/' src={badge} />,
       route: "/Fees-and-Pricing",
     },
     {
       name: "Audit Logs",
-      icon: <img src={Clipboard} />,
+      icon: <img alt='/' src={Clipboard} />,
       route: "/Audit-Logs",
     },
     {
       name: "Systems Messages",
-      icon: <img src={tyre} />,
+      icon: <img alt='/' src={tyre} />,
       route: "/Systems-Messages",
     },
   ];
@@ -154,7 +154,7 @@ const Sidebar = () => {
   const LogoutSideBarMenu: SidebarItemType[] = [
     {
       name: "Logout",
-      icon: <img src={signout} />,
+      icon: <img alt='/' src={signout} />,
       route: "/",
     },
   ];
@@ -164,13 +164,13 @@ const Sidebar = () => {
       <div className="flex flex-col py-[39px]">
         <div className="pb-5 lg:pl-[4px] xl:pl-0 xl:pr-4 gap-2 xl:gap-3 flex justify-center">
           <div className="mt-[5px] hover:text-[#1D4C41]">
-            <img src={briefcase} />
+            <img alt='/' src={briefcase} />
           </div>
           <p className=" font-semibold text-[12px] mt-[3px] lg:text-[14px] xl:text-[16px] text-[#213F7D] hover:text-[#1D4C41]">
             Switch Organization
           </p>
           <div className="mr-3 mt-[7px] hover:text-[#1D4C41]">
-            <img src={dropdown} />
+            <img alt='/' src={dropdown} />
           </div>
         </div>
 

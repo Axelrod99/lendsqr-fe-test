@@ -17,7 +17,7 @@ const Header = () => {
       <div className="grow flex items-center justify-between h-[100%]">
         <div className="flex gap-2 items-center">
           <div className="inline-flex gap-2 items-center ">
-            <img className="hidden xs:flex" src={Logo} />
+            <img alt='/' className="hidden xs:flex" src={Logo} />
             <p className="xs:hidden text-[32px] text-[#213F7D]">lendsqr</p>
           </div>
         </div>
@@ -28,7 +28,7 @@ const Header = () => {
             className="rounded-l-[8px] h-[40px] w-[240px] lg:w-[400px] p-[10px]"
           />
           <div className="h-[40px] w-[45px] lg:w-[56px] bg-[#39CDCC] rounded-r-[8px] flex justify-center items-center">
-            <img src={searchIcon} />
+            <img alt='/' src={searchIcon} />
           </div>
         </div>
 
@@ -36,17 +36,17 @@ const Header = () => {
           <p className="underline hidden lg:flex">Docs</p>
 
           <div>
-            <img src={Notification} />
+            <img alt='/' src={Notification} />
           </div>
 
           <div>
-            <img src={DP} />
+            <img alt='/' src={DP} />
           </div>
 
           <div className="gap-[4px] flex">
             <p className="hidden sm:flex">Adedeji</p>
             <div>
-              <img src={nb_dropdown} />
+              <img alt='/' src={nb_dropdown} />
             </div>
           </div>
         </div>

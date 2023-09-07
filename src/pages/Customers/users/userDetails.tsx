@@ -23,7 +23,7 @@ const UserDetails = () => {
         onClick={() => navigate("/Users")}
         className="flex cursor-pointer w-40 gap-[10px] items-center"
       >
-        <img src={arrowBack} />
+        <img alt='/' src={arrowBack} />
         <p className="text-[#545F7D] font-semibold">Back to Users</p>
       </div>
 
@@ -45,7 +45,7 @@ const UserDetails = () => {
         <div className="hidden md:grid grid-cols-3 justify-items-center xl:justify-items-start">
           <div className="flex gap-6">
             <div className="rounded-[100px] h-[100px] w-[100px] flex justify-center items-center bg-[#21407d38]">
-              <img src={user} />
+              <img alt='/' src={user} />
             </div>
 
             <div className="flex flex-col justify-center gap-2">
@@ -59,9 +59,9 @@ const UserDetails = () => {
           <div className="flex md:w-[50%] px-5 flex-col gap-2 justify-center border-x border-[#545f7d50]">
             <p className="text-[#545F7D] font-semibold">User's Tier</p>
             <div className="flex">
-              <img src={star2} />
-              <img src={star1} />
-              <img src={star1} />
+              <img alt='/' src={star2} />
+              <img alt='/' src={star1} />
+              <img alt='/' src={star1} />
             </div>
           </div>
 
@@ -79,7 +79,7 @@ const UserDetails = () => {
           <div className="flex flex-col xs:flex-row w-full justify-between">
             <div className="flex gap-3">
               <div className="rounded-[100px] h-[60px] w-[60px] flex justify-center items-center bg-[#21407d38]">
-                <img src={user} />
+                <img alt='/' src={user} />
               </div>
 
               <div className="flex flex-col justify-center gap-2">
@@ -93,9 +93,9 @@ const UserDetails = () => {
             <div className="flex md:w-[50%] pt-5 xs:pt-0 xs:px-5 flex-col gap-2 justify-center ">
               <p className="text-[#545F7D] font-semibold">User's Tier</p>
               <div className="flex">
-                <img src={star2} />
-                <img src={star1} />
-                <img src={star1} />
+                <img alt='/' src={star2} />
+                <img alt='/' src={star1} />
+                <img alt='/' src={star1} />
               </div>
             </div>
           </div>

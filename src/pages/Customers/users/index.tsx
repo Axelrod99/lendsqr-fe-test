@@ -50,7 +50,7 @@ const UsersPage = () => {
               <div
                 className={`h-[40px] w-[40px] flex justify-center items-center rounded-[30px] ${color}`}
               >
-                <img src={icons} />
+                <img alt='/' src={icons} />
               </div>
               <p className="text-[#545F7D] text-[12px] xs:text-[14px] font-bold sm:font-semibold">
                 {name}

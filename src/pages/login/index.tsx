@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import LoginImage from "../../assets/logout-image.svg";
 import Logo from "../../assets/logo.svg";
-import { Link, useNavigate } from "react-router-dom";
+import { useNavigate } from "react-router-dom";
 
 const LoginPages = () => {
   const [email, setEmail] = useState("");
@@ -25,17 +25,17 @@ const LoginPages = () => {
     <div className="flex h-screen w-screen">
       <div className="hidden md:flex flex-col gap-24 w-full">
         <div className="mt-[40px] ml-[30px]">
-          <img src={Logo} />
+          <img alt='/' src={Logo} />
         </div>
 
         <div className="flex justify-center mt-20 lg:mt-[58px] xl:mt-10">
-          <img src={LoginImage} />
+          <img alt='/' src={LoginImage} />
         </div>
       </div>
 
       <div className="flex flex-col w-full mt-10 md:mt-0 md:justify-center md:items-center">
         <div className="ml-7 md:ml-0 flex md:hidden">
-          <img src={Logo} />
+          <img alt='/' src={Logo} />
         </div>
 
         <div className="w-full flex flex-col items-center mt-16 md:mt-0">
