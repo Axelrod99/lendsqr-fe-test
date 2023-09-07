@@ -5,11 +5,9 @@ import DP from "../../assets/avatar.svg";
 import nb_dropdown from "../../assets/nb_dropdown.svg";
 import searchIcon from "../../assets/search.svg";
 
-type HeadProps = {
-  title?: string;
-};
 
-const Header = ({ title }: HeadProps) => {
+
+const Header = () => {
 
 
   return (

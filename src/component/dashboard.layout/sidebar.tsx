@@ -39,12 +39,12 @@ const HeaderSideBarMenu: SidebarItemType[] = [
 const Sidebar = () => {
   const CustomerSideBarMenu: SidebarItemType[] = [
     {
-      name: "User",
+      name: "Users",
       icon: <img src={user_friends} />,
       route: "/Users",
     },
     {
-      name: "Guarantor",
+      name: "Guarantors",
       icon: <img src={guarantor} />,
       route: "/Guarantors",
     },

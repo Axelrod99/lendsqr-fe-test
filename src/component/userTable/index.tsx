@@ -34,15 +34,15 @@ const UserTableDiv = () => {
       status: "Pending",
     },
     {
-      org: "Lendstar",
+      org: "Lendsqr",
       username: "Grace Effiom",
-      email: "grace@lendstar.com",
+      email: "grace@lendsqr.com",
       num: "07060780922",
       date: "Apr 30, 2020 10:00 AM",
       status: "Blacklisted",
     },
     {
-      org: "Lendstar",
+      org: "Lendsqr",
       username: "Tosin Dokunmu",
       email: "tosin@lendsqr.com",
       num: "07003309226",
@@ -50,15 +50,15 @@ const UserTableDiv = () => {
       status: "Pending",
     },
     {
-      org: "Lendstar",
+      org: "Lendsqr",
       username: "Grace Effiom",
-      email: "grace@lendstar.com",
+      email: "grace@lendsqr.com",
       num: "07060780922",
       date: "Apr 30, 2020 10:00 AM",
       status: "Active",
     },
     {
-      org: "Lendstar",
+      org: "Lendsqr",
       username: "Tosin Dokunmu",
       email: "tosin@lendsqr.com",
       num: "07003309226",
@@ -66,15 +66,15 @@ const UserTableDiv = () => {
       status: "Active",
     },
     {
-      org: "Lendstar",
+      org: "Lendsqr",
       username: "Grace Effiom",
-      email: "grace@lendstar.com",
+      email: "grace@lendsqr.com",
       num: "07060780922",
       date: "Apr 30, 2020 10:00 AM",
       status: "Blacklisted",
     },
     {
-      org: "Lendstar",
+      org: "Lendsqr",
       username: "Tosin Dokunmu",
       email: "tosin@lendsqr.com",
       num: "07003309226",
@@ -82,9 +82,9 @@ const UserTableDiv = () => {
       status: "Inactive",
     },
     {
-      org: "Lendstar",
+      org: "Lendsqr",
       username: "Grace Effiom",
-      email: "grace@lendstar.com",
+      email: "grace@lendsqr.com",
       num: "07060780922",
       date: "Apr 30, 2020 10:00 AM",
       status: "Inactive",
@@ -92,6 +92,7 @@ const UserTableDiv = () => {
   ];
 
   const navigate= useNavigate();
+  
 
 
   return (
@@ -126,7 +127,7 @@ const UserTableDiv = () => {
                   <td className="py-4 hidden lg:flex">{val.date}</td>
                   <td className="py-4 text-[10px] md:text-[12px]">
                     <div
-                      className={`bg-blue-100 h-[25px] rounded-[100px] 
+                      className={`h-[25px] rounded-[100px] 
                       ${
                         val.status === "Active"
                           ? "text-[#39CD62] bg-[#61df8460]"

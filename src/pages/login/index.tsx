@@ -1,9 +1,26 @@
-import React from "react";
+import React, { useState } from "react";
 import LoginImage from "../../assets/logout-image.svg";
 import Logo from "../../assets/logo.svg";
-import { Link } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 
 const LoginPages = () => {
+  const [email, setEmail] = useState("");
+  const [password, setPassword] = useState("");
+  const [showPassword, setShowPassword] = useState(false);
+  const [error, setError] = useState("");
+
+  const navigate = useNavigate()
+
+  const handleLogin = () => {
+    if (email === "lendsqr@gmail.com" && password === "lendsqr") {
+      setError("");
+      navigate('/Dashboard')
+    } else {
+      setError("Invalid username or password");
+    }
+  };
+  
+
   return (
     <div className="flex h-screen w-screen">
       <div className="hidden md:flex flex-col gap-24 w-full">
@@ -27,16 +44,33 @@ const LoginPages = () => {
             <p className="text-[#545F7D]">Enter details to login.</p>
           </div>
 
+          {error && 
+          <div className="flex flex-col items-center">
+          <p className="text-red-400 font-semibold">{error}</p>
+          <p className="text-[10px]">Email: lendsqr@gmail.com</p>
+          <p className="text-[10px]">Password: lendsqr</p>
+          </div>}
+
           <div className="flex flex-col gap-[24px] w-[85%] md:w-[75%] mt-[60px]">
             <input
               className="border border-[#545F7D26] h-[50px] text-[#545F7D] rounded-[8px] p-[10px]"
               placeholder="Email"
+              value={email}
+              onChange={(e) => setEmail(e.target.value)}
             />
 
-            <input
-              className="border border-[#545F7D26] h-[50px] text-[#545F7D] rounded-[8px] p-[10px]"
-              placeholder="Password"
-            />
+            <div className="relative">
+              <p className="absolute font-thin cursor-pointer right-2 top-[18px] text-[#39CDCC] text-[12px]">
+                SHOW
+              </p>
+              <input
+                className="border border-[#545F7D26] h-[50px] text-[#545F7D] w-full rounded-[8px] p-[10px]"
+                placeholder="Password"
+                value={password}
+                type={showPassword ? 'text' : 'password'}
+                onChange={(e) => setPassword(e.target.value)}
+              />
+            </div>
           </div>
 
           <div className="w-[85%] md:w-[75%] flex flex-col mt-6 gap-[30px]">
@@ -44,9 +78,12 @@ const LoginPages = () => {
               FORGOT PASSWORD?
             </p>
 
-            <Link to={'/Dashboard'} className="text-xs text-white bg-[#39CDCC] h-[48px] flex justify-center items-center font-bold rounded-[8px]">
+            <button
+            onClick={handleLogin}
+              className="text-xs text-white bg-[#39CDCC] h-[48px] flex justify-center items-center font-bold rounded-[8px]"
+            >
               LOG IN
-            </Link>
+            </button>
           </div>
         </div>
       </div>
