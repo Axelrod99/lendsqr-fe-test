@@ -24,7 +24,7 @@ import PreferencesPage from "./pages/Settings/preference";
 import FeesPricingPage from "./pages/Settings/fees-and-pricing";
 import AuditLogsPage from "./pages/Settings/auditLogs";
 import SystemMessagesPage from "./pages/Settings/systems-Messages";
-import DashboardPagee from "./pages/Dashboard";
+import DashboardPagee from "./pages/main-dashboard";
 
 function App() {
   return (
